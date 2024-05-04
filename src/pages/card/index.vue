@@ -3,7 +3,8 @@ import card from '../../components/card/card.vue';
 </script>
 
 <template>
-    <card>
-        
-    </card>
+    <div>
+        <card :balance="'50000'" :number="'12323343435'" :valid="'08-02'">
+        </card>
+    </div>
 </template>
